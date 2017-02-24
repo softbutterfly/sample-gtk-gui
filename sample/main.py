@@ -12,7 +12,7 @@ gui_file_path = os.path.join(working_directory, "sample.glade")
 
 class Handler:
     def on_click_search_button(self, *args):
-        print("Alex me la pela")
+        print("Welcome to Linux Playa")
 
 builder = Gtk.Builder()
 builder.add_from_file(gui_file_path)
